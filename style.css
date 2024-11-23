@@ -11,13 +11,12 @@ body {
 
 header,
 section {
-  margin-left: auto;
-  margin-right: auto;
+  margin-inline: auto;
   max-width: 40rem;
 }
 
 section {
-  padding: 32px 0px;
+  padding-block: 32px;
 }
 
 header {
@@ -56,6 +55,7 @@ strong {
   padding: 16px 24px;
   background-color: #ffbf00;
   border-bottom: #cc9900 solid 8px;
-  width: fit-content;
-  margin: 0px 0px 0px -24px;
+  /* width: fit-content; */
+  width: max-content;
+  margin: 0 0 0 -24px;
 }
